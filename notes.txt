@@ -41,3 +41,99 @@ problem is not that we observe dark energy, but that we observe an
 acceleration _for which an additional fluid component is one possible
 explanation_.
 
+---
+
+** 1209.0922 **
+
+Gives an overview of the theoretical and observational aspects of
+dark energy research. The problem of the dark sector is introduced as
+introducing
+
+"two additional components in our Universe: a component behaves like cold
+particles dubbed cold dark matter, and a component without significant
+dynamics dubbed dark energy."
+
+The authors later state,
+
+"Data suggests that dark energy, an energy component probably coming from the
+cosmological constant, dominates the current Universe. The percentage of dark
+energy density is around 70% – not small nor too large. The Universe is now
+accelerating due to the presence of dark energy."
+
+But like I said earlier, the data suggests _acceleration_ for which dark
+energy is one possible solution.
+
+The authors then go on to enumerate some of the more popular theoretical
+explanations for dark energy. A lot of this touches on field theory I'm rusty
+on, and so little qualifies for something I fully understand. Note that there
+are actually two theoretical problems associated with dark energy - (1) how to
+cancel the gigantic value predicted from the ZPE of quantum fields and (2) how
+to generate a teeny eny bit of dark energy:
+
+A.) Some symmetry arguments from field theory, which the authors don't paint
+as very convincing
+
+B.) Anthropic principle (don't tell Matthew Buckley)
+
+C.) Fine tuning - introducing a field that cancels the big boi value from
+field theory
+
+D.) Modified gravity - wouldn't that be awesome
+
+E.) Quantum cosmology - could lambda and quantum gravity be connected somehow?
+From a heuristic point of view this seems pretty compelling, but from a
+theoretical perspective probably a rabbit hole atm
+
+F.) Holographic principle - ??? We live in a black hole?
+
+G.) Back-reaction - dark energy arising from some complications regarding the
+fact that the Einstein field equations are non-linear. We assume the universe
+is homog. and isot., but this isn't true on small scales. We first average
+over small scales then time evolve. This introduces a correction term which
+might explain DE - but uncertain if the effect could be large enough. Also -
+what if the universe is not homogoneous on scales _larger_ than the observable
+universe. Then we should have a similar effect!
+
+H.) Phenomological models - ahh, sweet conservative methods. What if it's just
+another boring field? An interesting consequence of such a model is that it's
+quite easily constructed that w > -1 and w < -1. For the former, quintessence
+always has w < -1 and for the latter phantom DE (quintessence with a flipped
+sign on the kinetic term) has w < -1. The authors mention that in this case
+one should also consider "perturbations" of the dark energy field as it has
+"local degrees of freedom." Potentially a way to distinguish between this and
+a cosmological constant.
+
+The authors then move on to the more pedestrian concern of observational
+probes of dark energy.
+
+The first class of observational probes involves measuring the luminosity
+distance or angular diameter distance. By measuring the luminosity distance,
+you are measuring the integrated Hubble constant, since
+
+d_L = \int_0^z dz'/H(z')
+
+And the angular diameter distance is related by a factor of (1+z)^-2. So,
+there are a few ways of doing this:
+
+1.) SNIa - standard candles, give relatively direct measure of d_L. There are
+several issues with systematic errors - SNIa identification, host galaxy dust
+extinction, not _really_ standard candles, etc.
+
+2.) CMB - can measure the "shift parameter" and the angular acoustic scale,
+which give somewhat direct measurement of the angular diameter distance. Can
+also measure the ISW effect, which probes the gravitational potential - has
+been measured in cross-correlation with LSS at high signifigance.
+
+3.) BAO - praise Eisenstein
+
+4.) Weak lensing - something about the effect of DE on late-time structure
+growth, has been used to constrain w.
+
+5.) some other observational probes including galaxy clusters, GRBs, X-ray
+observations, Hubble constant measurements, cosmic age test, and growth factor
+data.
+
+The authors then discuss different surveys, constraints on different
+theoretical models, and model-independent methods in dark energy - which
+doesn't seem super relevant to our work.
+
