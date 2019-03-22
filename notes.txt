@@ -227,3 +227,47 @@ though.
 They then move into sigma_8 constraints. Structure formation, so not evidently
 relevant to us.
 
+---
+
+** 1502.01590 **
+
+Now we're in grown up territory, Planck 2015 XIV. Dark energy and
+modified gravity.
+
+They do a good job of saying we observe acceleration, it could be DE, but it
+could also be modification to GR. One question I have - if its a modification
+to GR, isn't this in tension with inflation since that would mean the universe
+would be strongly curved today?
+
+This paper uses the w = w_0 + w_a * (1-w_a) parametrization
+
+Table 1 (and p. 2) nicely lays out and organizes all the alternatives to
+lambdaCDM. They are organized into three sections, some sociological and some
+physical:
+1. Background parametrizations. The background cosmology is modified.
+   Perturbations are included, but their evolution is driven solely by the
+   background in a vanilla lambdaCDM. This includes wCDM, time evolution of w,
+   PCA of w, early DE, and a weakly-couple canonical scalar field.
+2. Perturbation expansions. The idea is that gravitational perturbations and
+   their evolution are modified beyond what the background evolution would
+   predict. I think this is just modified GR but I'm not sure? The two main
+   classes considered are EFT and another "more phenomological" class
+   considering arbitrary functions of the gravitational field.
+3. Partcular models. These are models which are more theoretically mature and
+   so easier to parametrize and thus constrain with data. Includes k-essense,
+   f(R), EoS...
+
+I think the spirit of distance measures would push us in the direction of
+considering just 1.) background parametrizations, but we shouldn't give the
+impression that 1.) is the most likely case just because it is the easiest to
+understand or - god forbid - is the most aesthetically pleasing.
+
+They also consider higher order expansions of w, but they don't fit the data
+any better than lamdbaCDM or a linear expansion.
+
+5.1.2 offers (finally) a new parametrization of w. If DE is a "minimally
+coupled-scalar field" with a potential of form V = 0.5 m^2 phi^2, then we
+expect w = -1 + \delta w(z) \approx -1 + \delta w_0 H_0^2/H(z)^2. \delta w_0
+is then the only free parameter, but is not found to deviate from zero at any
+significance.
+
