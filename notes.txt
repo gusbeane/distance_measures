@@ -305,3 +305,25 @@ w = ( (-z + z_c)*w_0 + z*(1 + z_c)*w_c) / ((1 + z) * z_c)
 
 Author then does some data stuff.
 
+---
+
+** 1611.00036 **
+
+DESI science paper.
+
+They use the standard parametrization w = w_0 + w_a * (1-a). This really does
+seem standard, and the pivot stuff is not in favor. The introduction of DE on
+pp. 3-4 is good.
+
+They also do a good job of separating acceleration of universe from dark
+energy. However, they state "We have three possible explanations for the
+accelerating expansion of the Universe: a cosmological constant, equivalent to
+static dark energy with w = −1; a dynamical dark energy with w(a) != −1; or a
+failure of General Relativity." However, I think that the cosmological
+constant should be seen as a _special case_ of dark energy, as opposed to
+equivalent to w=-1 DE.
+
+I really like Fig. 2.1. Look! They even emphasize z > 1 measurements!! But
+they also do a good job of showing the difference between different models
+where w differs slightly from -1.
+
