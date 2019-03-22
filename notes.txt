@@ -271,3 +271,37 @@ expect w = -1 + \delta w(z) \approx -1 + \delta w_0 H_0^2/H(z)^2. \delta w_0
 is then the only free parameter, but is not found to deviate from zero at any
 significance.
 
+---
+
+** 1605.02702 **
+
+Awesome paper. Writes down six of the bidimensional (two parameter) models of
+DE.
+
+1. Lambda CDM with w=-1 (only one free parameter, Omega_m). (I'm surprised
+   wCDM is not included).
+2. Linear-redshift approximation. The typical linear expansion of w, but the
+   author uses z instead, so w = w_0 - w_1*z. Note that this is quite
+   different from the regular parametrization, and the two can't be related
+   simply since being linear in a and z are two different games.
+3. The Chevallier-Polarski-Linder parametrization (CPL). w = w_0 +
+   w_1*(z/(1+z)).
+4. Barboza-Alcaniz approximation (BA). w = w_0 + w_1 * (z*(1+z))/(1+z^2). The
+   author claims that this is desirable because it works even as z -> -1. Not
+   sure how useful that really is.
+5. Low correlation parametrization (LC). Little more unseemly - written below
+   this. Has the virtue that w_0 and w_c are uncorrelated (by construction).
+   Requires a special redshift z_c. Similar in taste to w_p parametrization,
+   but focusing on correlation instead of constraining power.
+6. Jassal-Bagla-Padmanabhan (JBP). w = w_0 + z/(1+z)^2 w_1. Alleviates some
+   issues with CPL at high redshift.
+7. Wetterich-redshift (WP) w = w_0 / (1 + w_1*ln(1+z))^2. This is an early
+   DE-like model, with w_1 encoding the redshift of EDE (in some way). Some
+   issues since this can't have w>0 at early times, which may be the case
+   during radiation domination.
+
+For 5:
+w = ( (-z + z_c)*w_0 + z*(1 + z_c)*w_c) / ((1 + z) * z_c)
+
+Author then does some data stuff.
+
