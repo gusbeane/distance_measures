@@ -6,3 +6,38 @@ w_p = w_a * (1 - a)/(a_p - a)
 
 
 
+
+---
+
+** astro-ph/06059591 **
+
+The Dark Energy Task Force (DETF) basically laid out the case for pursuing
+dark energy. They proposed several things.
+
+First, they proposed (or probably adopted?) a parametrization of a
+time-varying w as
+
+w = w_0 + (1-a)w_a
+
+Which has the virtue that w=w_0 today - is simply a first order Taylor
+expansion.
+
+Of course we don't directly measure Lambda. What has actually been measured is
+more subtle. We actually measure is a''(t) > 0. According to the Friedmann
+acceleration equation,
+
+a''(t) = -4piG/3 * (rho + 3*p) + lambda/3    (p. 27)
+
+Now, the DETF point out that a''(t) > 0 could be explained by:
+
+1.) dark energy - i.e. some component where w < -1/3
+2.) cosmological constant
+3.) modification to GR, standard cosmological model, etc.
+
+However, I think a better (and probably more widespread) usage is that 1.) and
+2.) are both dark energy, and 2.) is just a special case of 1.) (w=-1). This
+does bring up a potentially important point which is that the observational
+problem is not that we observe dark energy, but that we observe an
+acceleration _for which an additional fluid component is one possible
+explanation_.
+
