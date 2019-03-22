@@ -137,3 +137,93 @@ The authors then discuss different surveys, constraints on different
 theoretical models, and model-independent methods in dark energy - which
 doesn't seem super relevant to our work.
 
+---
+
+** 1401.0046 **
+
+Provides a pedagological review of the standard foundation stuff.
+
+They state the following "the title of this article follows the common but
+inexact usage of “dark energy” as a catch-all term for the origin of cosmic
+acceleration, regardless of whether it arises from a new form of energy or a
+modification of GR."
+
+They introduce a parametrization of w as either:
+
+w = w_0 + w_a * (1-a)    [DETF parametrization]
+
+w = w_p + w_a * (a_p - a)
+
+The parameters of the second having been mentioned by the DETF. w_p and a_p
+are the pivot scale factor and w, where the pivot redshift/scale factor is the
+redshift at which you can best constrain w.
+
+If we choose to go with Mpc instead of Mpc/h, we should (jokingly) advocate
+that sigma_8 be renamed sigma_11.4286.
+
+The authors state the following, which I liked:
+
+"The underlying goal of empirical studies of cosmic acceleration is to address
+two physically profound questions:
+1. Does acceleration arise from a breakdown of GR on cosmological scales or
+   from a new energy component that exerts repulsive gravity within GR?
+2. If acceleration is caused by a new energy component, is its energy density
+   constant in space and time, as expected for a fundamental vacuum energy, or
+   does it show variations that indicate a dynamical field?"
+
+The authors then list the different observational probes. Of particular note
+here that wasn't emphasized in the previous article are redshift-space
+distortions and the AP test.
+
+Figure 1.1 is a good thing to look at for a potential way to present
+differences between different cosmologies, although probably the obvious
+avenue. I suggest we refrain from adding data to our figures since that would
+date us rather quickly. I think this is a good way to show the differences
+between different values of w though. It also makes some intuitive sense - w <
+-1 causes more rapid expansion. Interesting bit in the figure caption "Note
+that the SN data points can be shifted up or down by a constant factor to
+account for freedom in the peak luminosity..."
+
+Some Q's I have: 
+1. Intuitively, why is stuff at the same redshift at different distances in
+   different cosmologies? Naively, redshift measures the total "stretching" of
+   space. I think this has to do with the fact that the relationship between
+   proper distance and cosmological distance is related to the light-travel
+   time between objects. So even though space has stretched by a constant
+   amount, the distance can be different (want a more intuitive explanation
+   though).
+2. One can see in Fig 1.1 that the difference between wCDM and lambda-CDM
+   saturates at z~1. Assuming the cosmological parameters are known (which is
+   a big assumption in the precision case!), shouldn't one be able to
+   constrain w with probes from arbitrarily large z? DETF claims that z >> 1
+   probes aren't that useful. But there are so many more modes at z >> 1! (I
+   think I've heard this question asked and explained many times so I'm a bit
+   embarrased I haven't retained it.)
+3. Is the (1+z)^n relationship between luminosity, angular, and comoving
+   distances true even when w != -1? When w is not constant? When GR is
+   modified? (last one might be a question for Justin Khoury)
+
+In addition to looking w != -1, we should also include a discussion of
+Omega_tot != 1, although the nature of the discussion is obviously different
+from the original distance measures paper. But in a similar way to how we
+might show slight differences between wCDM and lambdaCDM, we might also show
+slight differences between curvedCDM (cCDM?) and lambdaCDM.
+
+Figure 1.2 shows the current observational constraints on various cosmological
+parameters. One thing we might think about including is the relationship
+between the degeneracy of different parameters. For instance, suppose w = -1.1
+but we enforce w = -1. How does this bias your measurement of Omega_m?
+Omega_lambda? Similarly for curvature. This is probably well-documented
+somewhere.
+
+With both w and Omega_k, you can't really ever conclusively prove that w=-1 or
+Omega_k=0, only to within some precision. Maybe we could add a table that has
+two columns with the first column being some precision (e.g. w=-1 to 10^-3)
+and the second column being some piece of interesting physics that is excluded
+if that precision is ever measured. Similarly for if w > -1 or < -1 and
+omega_k > 0 and < 0. This may be veering too hard into a dark energy review
+though.
+
+They then move into sigma_8 constraints. Structure formation, so not evidently
+relevant to us.
+
