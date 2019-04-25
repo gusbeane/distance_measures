@@ -1,11 +1,3 @@
-General notes:
-
-The relationship between w_a and w_p is:
-
-w_p = w_a * (1 - a)/(a_p - a)
-
-
-
 
 ---
 
