@@ -418,3 +418,21 @@ effectiveness.
 The rest of the paper is spent discussing other probes. Of potential relevance
 to us is standard siren measurements - probably worth discussing in the paper,
 and what the relevant distance measure is.
+
+---
+
+** 1807.06209 **
+
+The Planck 2018 cosmological parameter inference paper. Section 7.4 discusses
+the general dark energy analysis. The parametrization of w that is adopted is,
+you guessed it:
+
+w = w_0 + (1-a)w_a
+
+When w crosses -1, they use the parametrized post-Friedmann (PPF) model by Hu
+and Sawicki (2007). They discuss other ways w < -1 can be achieved. No tension
+with (w_0, w_a) = (-1, 0) is found. 
+
+They also discuss modified GR.
+
+
