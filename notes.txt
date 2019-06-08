@@ -319,3 +319,102 @@ I really like Fig. 2.1. Look! They even emphasize z > 1 measurements!! But
 they also do a good job of showing the difference between different models
 where w differs slightly from -1.
 
+---
+
+** 1709.01091 **
+
+"The simplest and best-known candidate for darkenergy is the energy of the
+vacuum,   representedin  Einstein’s  equations  by  the
+cosmological-constantterm. " - more support for the original point
+
+Something a little surprising in Fig 1: authors show the energy of each
+component as function of z - ok, standard lore, radiation dominates early,
+then matter, then DE. But it looks like in some models with varying w(z) at
+linear order that at some point in the future matter will again dominate. We
+should make the point that the linear expansion will only be valid over some
+redshift range (the size of that range is completely unconstrained!)
+
+This Fig is nice though for intuition - presumably the upper and lower lines
+come from upper and lower limits on w_a. Which line to the left of the dashed
+line corresponds to which line to the right?
+
+They use w = w_0 + (1-a)w_a
+
+The fact that inflation generally predicts a flat universe is one of the
+reasons why flatness is the preferred cosmological model (also consistency
+with data, simple model, etc.). Should talk about this in the distance
+measures paper, but also maybe talk about how inflation predicts _some_
+curvature, and the sign of the curvature is an important inflationary
+constraint -> one reason why we should have different curvature models.
+
+The authors talk about a "growth-suppression" factor g(a). Density
+fluctuations are suppressed by g while 2PCF (and power spectrum) is suppressed
+by g^2 - g is related to the usual growth factor D by a factor of a, so that
+g=1 at all times when Omegam=1.
+
+Section 4 is all about parametrizations of dark energy - exactly what we want.
+
+4.2 talks about first a constant w and OmegaDE. Then they talk about time
+varying w and OmegaDE - this obviously introduces an infinite number of
+degrees of freedom, leading people to adopt a low-dimensional parametriation.
+The most common one they state is w = w_0 + (1-a)w_a.
+
+4.3 Talks about the pivot redshift parametrization. Pivot redshift is defined
+to be the redshift where the error on w and w_0 are uncorrelated (and
+minimized). Written as w = w_p + (a_p - a)w_a. Something I'm not sure about -
+a_p/z_p is determined from the data, so why is this still a 2-parameter model
+and not a 3-parameter model? Equation 20 and 21 give z_p and the error on w_p
+as a function of the covariance matrix of (w_0, w_a)
+
+4.4 Talks about principal component analysis. Authors state this is attractive
+because it is as close to model-independent as we can get (although I think
+PCA assumes w is a smooth function of z?). [They state in a footnote that "one
+still typically makes implicit assumptions about the speed of sound of dark
+energy, anisotropic stresses, etc., so the method is not truly
+model-independent."]
+
+4.5 Talks about direct reconstruction of w(z) or OmegaDE(z) from, e.g., SNe Ia
+data. Equation 23 shows how to do this, which involves computing dr/dz and
+d2r/dz2, where r(z) is the comoving distance. One can also compute directly
+OmegaDE (Eq 25) scalar potential (Eq 26) (!). Computing OmegaDE(z) directly
+only involves dr/dz and not d2r/dz2, so the authors say that it should be
+easier to do this with OmegaDE (though doing so is less fruitful
+scientifically). But they are pessimistic about how well one can actually
+measure d2r/dz2 with real data, so this approach seems limited/futuristic.
+
+4.6 talks about figures of merits and more generalized FoM's than the DETF one.
+
+4.7 talks baout generalized phenomology. Possibilites include dark energy
+sound speeds that allow clustering on small scales, the presence of early dark
+energy, or dark energy-dark matter couplings. These all seem sufficiently
+speculative that we can leave them out or just mention in a sentence or two.
+
+4.8 discussed modified GR.
+
+4.9 discusses consistency tests, e.g. with Bayesian approaches.
+
+Section 5 talks about different observational probes.
+
+5.1 talks about SNe Ia. Discusses using them as standard candles, the early
+challenges to detecting many of them, why they aren't strictly standard
+candles - and ways to correct the intrinsic luminosity scatter. 5.2 Discusses
+the BAO. I didn't realize the BAO was predicted first by Sunyaev+Zeldovich and
+Peebles+Yu. Kind of soul-crushing that modern cosmology is just working out
+the details of the ideas of Sunyaev, Zeldovich, Peebles, Silk, etc. from 50
+years ago.
+
+5.3 talks about the CMB. Distance to the surface of last scattering (and thus
+the angular size of CMB features) is affected by dark energy. This makes the
+CMB, which naively would be insensitive to dark energy, actually a great
+complementary probe. The CMB thus constrains a degenerate combination of
+Omegam and w. Late-time ISW effect can imprint power on large angular modes,
+and is sensitive to dark energy. Unfortunately, cosmic variance limits the
+effectiveness.
+
+5.4 talks about weak lensing.
+
+5.5 talks about galaxy clusters.
+
+The rest of the paper is spent discussing other probes. Of potential relevance
+to us is standard siren measurements - probably worth discussing in the paper,
+and what the relevant distance measure is.
