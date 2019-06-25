@@ -53,5 +53,80 @@ use of this summary or the associated code.
 \keywords{editorials, notices --- 
 miscellaneous --- catalogs --- surveys}
 
+\section{Cosmographic Parameters} \label{sec:param}
+The {\em Hubble constant\/} $H_0$ is the constant of proportionality between
+recession speed $v$ and distance $d$ in the expanding Universe;
+\begin{equation}
+v=H_0\, d
+\end{equation}
+The subscripted ``0'' refers to the present epoch because in general $H$
+changes with time.  The dimensions of $H_0$ are inverse time, but it is
+usually written
+\begin{equation}
+H_0=100\,h~{\rm km\,s^{-1}\,Mpc^{-1}}
+\end{equation}
+where $h$ is a dimensionless number parameterizing our ignorance. (Word on the
+street is that $0.66<h<0.76$.)  The inverse of the Hubble constant is the {\em
+Hubble time\/} $t_{\rm H}$
+\begin{equation}
+\label{eq:th}
+t_{\rm H}\equiv\frac{1}{H_0}
+= 9.78\times10^9\,h^{-1}~{\rm yr}= 3.09\times10^{17}\,h^{-1}~{\rm s}
+\end{equation}
+and the speed of light $c$ times the Hubble time is the {\em Hubble
+distance\/} $D_{\rm H}$
+\begin{equation}
+\label{eq:dh}
+D_{\rm H}\equiv\frac{c}{H_0}
+= 3000\,h^{-1}~{\rm Mpc}= 9.26\times10^{25}\,h^{-1}~{\rm m}
+\end{equation}
+These quantities set the scale of the Universe, and often cosmologists
+work in geometric units with $c=t_{\rm H}=D_{\rm H}=1$.
+
+The mass density $\rho$ of the Universe and the dark energy density $\rho_{\rm
+de}$ are dynamical properties of the Universe, affecting the time evolution of
+the metric, but in these notes we will treat them as purely kinematic
+parameters. They can be made into dimensionless density parameters
+$\Omega_{{\rm M}, 0}$ and $\Omega_{{\rm de}, 0}$ by
+\begin{equation}
+\Omega_{{\rm M}, 0}\equiv\frac{8\pi\,G\,\rho_0}{3\,H_0^2}
+\end{equation}
+\begin{equation}
+\Omega_{{\rm de}, 0}\equiv\frac{8\pi\,G\,\rho_{\rm de}}{3\,H_0^2}
+\end{equation}
+(Peebles, 1993, pp~310--313), where the subscripted ``0''s indicate that the
+quantities (which in general evolve with  time) are to be evaluated at the
+present epoch. The time evolution of dark energy, governed by its equation of
+state $w$, is given by
+\begin{equation}
+\Omega_{\rm de}(z) = \Omega_{{\rm de}, 0} (1+z)^{3(1+w)}\text{,}
+\end{equation}
+where $w$ can in general evolve with redshift. The standard cosmological
+model, $\Lambda$CDM, is given by a constant $w=-1$.
+
+Describing the evolution of dark energy in terms of its equation of state is
+strictly a phenomological choice, and simply parametrizes the physical
+mechanism behind dark energy. By only using the $w$-parametrization, we
+implicitly ignore the great diversity of dark energy models (and even some
+that are described by the $w$-parametrization). A useful though not exhaustive
+list of different dark energy models is given in Table~1 of 1502.01590.
+
+For many (even precision) late-time cosmology purposes (i.e., $z<20$), we can
+ignore the energy contribution of radiation
+\begin{equation}
+\Omega_{{\rm r}, 0}\equiv\frac{8\pi\,G\,\rho_{{\rm r}, 0}}{3\,H_0^2}\text{,}
+\end{equation}
+since $\Omega_{{\rm r}, 0} \sim 9.2\times10^{-5}$.
+
+A fourth density parameter $\Omega_k$ measures the ``curvature of space'' and
+can be defined by the relation
+\begin{equation}
+\Omega_{\rm M}+\Omega_{\rm de}+ \Omega_{rm r} + \Omega_k= 1
+\end{equation}
+These parameters completely determine the geometry of the Universe if it is
+homogeneous, isotropic, and matter-dominated.  By the way, the critical
+density $\Omega=1$ corresponds to $7.5\times
+10^{21}\,h^{-1}\,M_{\odot}\,D_{\rm H}^{-3}$, where $M_{\odot}$ is the mass of
+the Sun.
 
 \end{document}
